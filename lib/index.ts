@@ -1,16 +1,56 @@
-export { default as isEmpty } from './isEmpty';
-export { default as deref } from './deref';
-export { default as pass } from './pass';
-export { default as truthy } from './truthy';
-export { default as falsey } from './falsey';
-export { default as cond } from './cond';
-export { default as required } from './required';
-export { default as max } from './max';
-export { default as min } from './min';
-export { default as maxLength } from './maxLength';
-export { default as minLength } from './minLength';
-export { default as after } from './after';
-export { default as before } from './before';
-export { default as noneOf } from './noneOf';
-export { default as oneOf } from './oneOf';
-export { default as pattern } from './pattern';
+import { default as isEmpty } from './isEmpty';
+import { default as deref } from './deref';
+import { default as pass } from './pass';
+import { default as truthy } from './truthy';
+import { default as falsey } from './falsey';
+import { default as cond } from './cond';
+import { default as required } from './required';
+import { default as max } from './max';
+import { default as min } from './min';
+import { default as maxLength } from './maxLength';
+import { default as minLength } from './minLength';
+import { default as after } from './after';
+import { default as before } from './before';
+import { default as noneOf } from './noneOf';
+import { default as oneOf } from './oneOf';
+import { default as pattern } from './pattern';
+
+const Validators = {
+  isEmpty,
+  deref,
+  pass,
+  truthy,
+  falsey,
+  cond,
+  required,
+  max,
+  min,
+  maxLength,
+  minLength,
+  after,
+  before,
+  noneOf,
+  oneOf,
+  pattern,
+};
+
+export default Validators;
+
+export {
+  isEmpty,
+  deref,
+  pass,
+  truthy,
+  falsey,
+  cond,
+  required,
+  max,
+  min,
+  maxLength,
+  minLength,
+  after,
+  before,
+  noneOf,
+  oneOf,
+  pattern,
+};
