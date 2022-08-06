@@ -1,4 +1,4 @@
-import isEmpty from '@lib/isEmpty';
+import isEmpty from '@lib/is-empty';
 import deref, { RefObject } from '@lib/deref';
 import { Validator } from '@lib/types';
 
